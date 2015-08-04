@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/vrstaPizze"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textColor="@color/zelena"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vrsta"/>
+
+    <TextView
+        android:id="@+id/velicinaPizze"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/smedja"
+        android:text="Velicina"/>
+
+    <TextView
+        android:id="@+id/cijenaPizze"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="@color/smedja"
+        android:gravity="end"
+        android:text="Cijena" />
+
+    <TextView
+        android:id="@+id/cijenaKM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="@color/smedja"
+        android:gravity="end"
+        android:text="Cijena" />
+
+</LinearLayout>

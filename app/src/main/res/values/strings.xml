@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Pizza</string>
+    <string name="action_settings">Podešavanja</string>
+    <string name="action_logout">Odjava</string>
+
+    <!-- Activities -->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_register">Registracija</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_order">Narudžbe</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <!-- User data -->
+    <string name="firstname">Ime</string>
+    <string name="lastname">Prezime</string>
+    <string name="usernameHint">Korisničko ime</string>
+    <string name="passwordHint">Lozinka</string>
+    <string name="passwordConfirm">Potvrda lozinke</string>
+    <string name="email">E-mail</string>
+    <string name="mobilenumber">Broj mobitela</string>
+    <string name="orderaddress">Adresa za dostavu</string>
+
+    <!-- Buttons -->
+    <string name="loginButton">Prijava</string>
+    <string name="registerButton">Registracija</string>
+    <string name="ordermoreButton">Dodaj u korpu</string>
+    <string name="finishOrderButton">Završi narudžbu</string>
+    <string name="orderButton">Naruči</string>
+    <string name="orderNowButton">Order now</string>
+    <string name="registrationLink">Novi korisnik? Registruj se</string>
+    <string name="forgotPassword">Zaboravljena lozinka?</string>
+    <string name="getPasswordButton">Pošalji lozinku</string>
+
+    <!-- Navigation titles -->
+    <array name="navigation_drawer_strings">
+        <item>Pizza</item>
+        <item>Narudžba</item>
+        <item>Menu</item>
+        <item>Odjava</item>
+    </array>
+
+    <!-- Navigation icons -->
+    <string-array name="navigation_drawer_icons">
+        <item>@drawable/ic_pizza</item>
+        <item>@drawable/ic_order</item>
+        <item>@drawable/ic_menu</item>
+        <item>@drawable/ic_door</item>
+    </string-array>
+
+    <string name="description_list_item_icons">Item icons</string>
+
+    <string name="pizza_vrsta_prompt">Vrsta</string>
+    <string name="pizza_velicina_prompt">Veličina</string>
+    <string name="pizzaCount">Količina</string>
+    <string name="pizzaOpis">Opis</string>
+    <string name="pizzaMenu">Menu:</string>
+
+    <!-- Alert dialog -->
+    <string name="alertDialogLogin">Prijava...</string>
+    <string name="alertDialogLoginErrorTitle">Greška prilikom prijave</string>
+    <string name="alertDialogLoginErrorMessage">Korisnik ne postoji</string>
+    <string name="alertDialogPositiveButton">U redu</string>
+    <string name="alertDialogNegativeButton">Obriši</string>
+    <string name="alertDialogPizzaOpis">Opis: </string>
+    <string name="alertDialogPizzaVelicina">Veličina:</string>
+    <string name="alertDialogPizzaCijena">Cijena:</string>
+    <string name="alertDialogOrderDelete">Brisanje narudžbe</string>
+    <string name="alertDialogOrderDeleteMessage">Da li želite obrisati narudžbu?</string>
+    <string name="alertDialogOrderDeleteNo">Ne</string>
+
+    <!-- Toast strings -->
+    <string name="toastNoInternet">Nema internet konekcije!</string>
+    <string name="toastInsertUsername">Unesi korsničko ime</string>
+    <string name="toastInsertPass">Unesi lozinku</string>
+    <string name="toastRegisterError">Unesi sve podatke!</string>
+    <string name="toastRegisterPassError">Lozinke nisu iste!</string>
+    <string name="toastRegisterOK">Registracija uspješna</string>
+    <string name="toastOrderMoreOK">Uspješna narudžba</string>
+    <string name="toastOrderMoreError">Odaberi vrstu i veličinu pizze</string>
+    <string name="toastOrderError">Greška</string>
+    <string name="toastOrderDeleteConfirm">Obrisano</string>
+    <string name="toastOrderDeleteError">Greška</string>
+    <string name="toastOrderAddressError">Unesi adresu za dostavu</string>
+    <string name="toastOrderNumberError">Unesi kontakt broj</string>
+
+</resources>
